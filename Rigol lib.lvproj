@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Documentation" Type="Folder" URL="../Documentation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Library" Type="Folder">
 			<Item Name="Rigol DM3052.lvlib" Type="Library" URL="../Lib/Rigol DMM/Rigol DM3052.lvlib"/>
 		</Item>
